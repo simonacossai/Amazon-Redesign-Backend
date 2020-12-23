@@ -1,7 +1,8 @@
-const { readJSON, writeJSON } = require("fs-extra")
-const { join } = require("path")
+const {readJSON,writeJSON} = require("fs-extra")
+const {join} = require("path")
 
 const productsPath = join(__dirname, "../products/products.json")
+
 
 const readDB = async filePath => {
   try {
